@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ebook {
+    width: 60%;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cover, .page {
+    margin-bottom: 40px;
+}
+
+.cover h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+}
+
+.cover p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+.cover img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.page h2 {
+    color: #2c3e50;
+    font-size: 2em;
+}
+
+.page img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
