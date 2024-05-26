@@ -1,18 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .ebook {
     width: 60%;
-    margin: 20px;
+    margin-bottom: 10px;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -50,3 +38,23 @@ body {
     margin-top: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+.creator {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .credits {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 14px;
+  }
+  
+  .credits a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .credits a:hover {
+    text-decoration: underline;
+  }
+  
